@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-pip install https://github.com/kropchess/logger.git
+pip install git+https://github.com/kropchess/logger.git
 ```
 
 ## Usage
