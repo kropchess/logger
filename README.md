@@ -24,5 +24,5 @@ logger.log.warning('Foo', 'Bar') # [WARNING][Bar] Foo
 logger.log.error('Foo', 'Bar') # [ERROR][Bar] Foo
 ```
 
-##Links
+## Links
 > [Github](https://github.com/kropchess/logger/)
