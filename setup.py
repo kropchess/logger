@@ -11,7 +11,7 @@ setuptools.setup(
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/kropchess/logger.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

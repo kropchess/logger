@@ -2,6 +2,7 @@ from .main import Logger
 
 log = None
 
+
 def init(demo=False, **kwargs):
     log = Logger(**kwargs)
     if demo:
