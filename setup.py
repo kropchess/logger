@@ -11,6 +11,6 @@ setuptools.setup(
     author='auth',
     author_email='author@email.com',
     license='MIT',
-    packages=['loger'],
+    packages=[],
     zip_safe=False
 )
