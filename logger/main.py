@@ -51,6 +51,13 @@ class Logger:
         else:
             print('[ERROR][{0}] {1}'.format(script, object.__str__()))
 
+    def process(self, script):
+        paras = ' ' * self.paras
+        if self.colored:
+            print('{3}{0}*{1} {2}'.format(colorama.Fore.LIGHTMAGENTA_EX, colorama.Fore.RESET, script, paras))
+        else:
+            print('{1}* {0}'.format(script, paras))
+
     def para(self):
         self.paras += 1
 
