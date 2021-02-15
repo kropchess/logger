@@ -27,3 +27,4 @@ logger.log.error('Foo', 'Bar')  # [ERROR][Bar] Foo
 
 ## Links
 > [Github](https://github.com/kropchess/logger/)
+> 
