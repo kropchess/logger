@@ -10,7 +10,7 @@ pip install git+https://github.com/kropchess/logger.git
 
 ```python
 
-from src import logger
+import logger
 
 logger.init(demo=True, colored=True)  # init module
 
